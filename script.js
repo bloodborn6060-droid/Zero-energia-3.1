@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.toggle("blood-theme");
 
       if (document.body.classList.contains("blood-theme")) {
-        charName.textContent = "Generalíssima do vazio Inefavel";
+        charName.textContent = "Aquela Que Mastiga a Coroa";
         activeWords = bloodWords; // muda frases
       } else {
         charName.textContent = originalName;
